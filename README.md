@@ -1,5 +1,7 @@
 # glayvinator
 
+![GLAVIN!](http://acmelimited.com/news/wp-content/uploads/2014/08/frink_labs.jpg)
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
