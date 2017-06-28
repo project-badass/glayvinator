@@ -1,0 +1,21 @@
+{{page-toolbar title="Glayvinator"}}
+
+<div class="layout-row layout-align-center">
+  {{#paper-card class="onboarding-card" as |card|}}
+    {{card.image src="http://i.imgur.com/cFb1g2p.png" alt="Home" title="Home"}}
+    {{#card.title as |title|}}
+      {{#title.text as |text|}}
+        {{#text.headline}}Welcome!{{/text.headline}}
+      {{/title.text}}
+    {{/card.title}}
+    {{#card.content}}
+      <p>
+        Get your shit together, get it all together and put it in a back pack, all your shit, so it's together. And if you gotta take it some where, take it somewhere, you know, take it to the shit store and sell it, or put it in the shit museum. I don't care what you do, you just gotta get it together. Get your shit together.
+      </p>
+    {{/card.content}}
+    {{#card.actions}}
+      {{#paper-button primary=true onClick=(route-action 'signIn' 'google')}}Sign In{{/paper-button}}
+    {{/card.actions}}
+  {{/paper-card}}
+
+</div>

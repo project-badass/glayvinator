@@ -1,0 +1,18 @@
+@import 'variables';
+
+@import 'ember-paper';
+
+@import 'menu';
+@import 'hacks';
+
+.cromulon {
+  height: 160px;
+}
+
+body {
+  background-color: color('grey', '100');
+}
+
+.onboarding-card {
+  max-width: 600px;
+}
